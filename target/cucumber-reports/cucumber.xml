@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="21.158" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-05-12T09:53:57.715890900Z">
+<testcase classname="Check Geti Side" name="Call the Geti Side" time="20.947">
+<system-out><![CDATA[
+Given call the Sogeti Side..................................................passed
+And cookies are accepted....................................................passed
+And stay on this side is selected...........................................passed
+When clicking the Geti Button...............................................passed
+Then check that the Geti Side is called.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
