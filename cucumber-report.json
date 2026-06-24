@@ -1,0 +1,105 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "check-availability-of-geti-side;call-the-geti-side",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Call the Geti Side",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1201296800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "homepage is called",
+            "match": {
+              "location": "tests\\steps\\homepagestep.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35544721400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user click on the stay on this site button",
+            "match": {
+              "location": "tests\\steps\\homepagestep.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1570121899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user accepts the cookies",
+            "match": {
+              "location": "tests\\steps\\homepagestep.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54570099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks on the geti button",
+            "match": {
+              "location": "tests\\steps\\homepagestep.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193099399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user should be redirected to the geti page",
+            "match": {
+              "location": "tests\\steps\\homepagestep.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5908499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 531407100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "check-availability-of-geti-side",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Check availability of Geti Side",
+    "tags": [],
+    "uri": "tests\\features\\geti.feature"
+  }
+]

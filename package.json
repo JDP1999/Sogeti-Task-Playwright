@@ -1,0 +1,30 @@
+{
+  "name": "sogetitask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDP1999/Sogeti-Task-Playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JDP1999/Sogeti-Task-Playwright/issues"
+  },
+  "homepage": "https://github.com/JDP1999/Sogeti-Task-Playwright#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.9.0",
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^26.0.0"
+  },
+  "scripts": {
+
+   "test": "cucumber-js"
+
+ }
+
+}
