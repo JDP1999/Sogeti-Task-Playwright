@@ -17,14 +17,15 @@
   },
   "homepage": "https://github.com/JDP1999/Sogeti-Task-Playwright#readme",
   "devDependencies": {
-    "@cucumber/cucumber": "^12.9.0",
-    "@playwright/test": "^1.61.0",
-    "@types/node": "^26.0.0"
+    "@cucumber/cucumber": "12.9.0",
+    "@playwright/test": "1.61.0",
+    "@types/node": "26.0.0"
   },
   "scripts": {
 
    "test": "cucumber-js"
 
  }
+ 
 
 }

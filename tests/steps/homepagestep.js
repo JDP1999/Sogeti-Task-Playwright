@@ -2,29 +2,26 @@ const { Given, When, Then } = require("@cucumber/cucumber");
 
 const { expect } = require("@playwright/test");
 
-//Selectors
-
-var btnAcceptCookies="#accept"
-var btnStayOnThisSite="//button[@id='geoRedirectStayBtn']";
-var btnMeetGeti="(//a[@aria-label='<strong>Meet Geti</strong>'])[1]";
+const { Homepage } = require("../pageobjects/Homepage.js")
 
 //Methods
 
 //Actions
 Given ("homepage is called", async function (){
-    await this.page.goto('https://www.sogeti.com/');
+    this.homepage = new Homepage(this.page)
+    await this.page.goto("https://www.sogeti.com/");
 });
 
 When ("the user accepts the cookies", async function(){
-    await this.page.locator(btnAcceptCookies).click();
+    await this.homepage.btnAcceptCookies.click();
 })
 
 When ("the user click on the stay on this site button", async function () {
-    await this.page.locator(btnStayOnThisSite).click();
+    await this.homepage.btnStayOnThisSite.click();
 })
 
 When ("the user clicks on the geti button", async function(){
-    await this.page.locator(btnMeetGeti).click();
+    await this.homepage.btnMeetGeti.click();
 })
 
 
