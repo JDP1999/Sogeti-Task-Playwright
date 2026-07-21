@@ -28,9 +28,9 @@
 
      "summary",
 
-     "html:report/cucumber-report.html",
+     "html:report/report.html",
 
-     "json:report/cucumber-report.json"
+     "json:report/report.json"
 
    ]
 
