@@ -1,4 +1,4 @@
-Feature: genAi Page
+Feature: GenAi Page
 
 Scenario: Check the genAi Page
 

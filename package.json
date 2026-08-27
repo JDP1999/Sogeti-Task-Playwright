@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "cucumber-js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JDP1999/Sogeti-Task-Playwright.git"
@@ -18,14 +20,10 @@
   "homepage": "https://github.com/JDP1999/Sogeti-Task-Playwright#readme",
   "devDependencies": {
     "@cucumber/cucumber": "12.9.0",
-    "@playwright/test": "1.61.0",
+    "@playwright/test": "^1.61.0",
     "@types/node": "26.0.0"
   },
-  "scripts": {
-
-   "test": "cucumber-js"
-
- }
- 
-
+  "dependencies": {
+    "@faker-js/faker": "^10.6.0"
+  }
 }

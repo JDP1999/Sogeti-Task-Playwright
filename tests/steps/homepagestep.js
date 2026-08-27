@@ -39,6 +39,10 @@ When ("the user clicks on the Gen AI Augmented Software House", async function()
     await this.banner.lbl_GenAiAugmentedSoftwareHouse.click();
 })
 
+When("the user clicks on contact us", async function (){
+    await this.homepage.btnContactUs.click();
+})
+
 
 //Verifications
 Then ("the user should be redirected to the geti page", async function(){
